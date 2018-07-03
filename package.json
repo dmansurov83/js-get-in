@@ -1,7 +1,7 @@
 {
   "name": "get-in",
   "version": "1.0.0",
-  "description": "Safe object deep get value util",
+  "description": "JS. Returns the value at the provided key path",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -9,6 +9,10 @@
     "test": "mocha --compilers js:babel-core/register",
     "start": "webpack-dev-server --watch",
     "prepublish": "npm run clean && npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmansurov83/get-in.git"
   },
   "author": "dmansurov83@gmail.com",
   "license": "ISC",
