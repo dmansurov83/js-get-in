@@ -1,5 +1,5 @@
 {
-  "name": "get-in",
+  "name": "js-get-in",
   "version": "1.0.0",
   "description": "JS. Returns the value at the provided key path",
   "main": "lib/index.js",
