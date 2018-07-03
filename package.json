@@ -8,7 +8,7 @@
     "compile": "babel src --loose --out-dir lib",
     "test": "mocha --compilers js:babel-core/register",
     "start": "webpack-dev-server --watch",
-    "prepublish": "npm run clean && npm run compile"
+    "prepublish": "npm run test && npm run clean && npm run compile"
   },
   "repository": {
     "type": "git",
